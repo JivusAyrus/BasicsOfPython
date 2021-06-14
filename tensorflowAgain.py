@@ -15,3 +15,6 @@ model = tf.keras.models.Sequential([
   tf.keras.layers.Dropout(0.2),
   tf.keras.layers.Dense(10)
 ])
+# Define a loss function
+loss_fn = 
+  tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
